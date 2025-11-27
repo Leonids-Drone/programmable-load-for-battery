@@ -434,9 +434,29 @@
 			(embedded_fonts no)
 		)
 	)
+	(text ".tran 0.1 1 0"
+		(exclude_from_sim no)
+		(at 107.696 58.928 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "96e8c673-a485-4d73-8f06-130be246dc1c")
+	)
+	(text "*.TRAN TSTEP TSTOP <TSTART <TMAX>> <UIC>"
+		(exclude_from_sim no)
+		(at 123.444 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dac1d14e-4f40-4893-a170-3d50c7414b90")
+	)
 	(wire
 		(pts
-			(xy 43.18 58.42) (xy 60.96 58.42)
+			(xy 43.18 58.42) (xy 55.88 58.42)
 		)
 		(stroke
 			(width 0)
@@ -466,7 +486,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 58.42) (xy 78.74 58.42)
+			(xy 63.5 58.42) (xy 78.74 58.42)
 		)
 		(stroke
 			(width 0)
@@ -640,7 +660,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 64.77 58.42 90)
+		(at 59.69 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -649,15 +669,15 @@
 		(fields_autoplaced yes)
 		(uuid "a2c03687-a25b-4aef-a69e-9d9c8655414b")
 		(property "Reference" "R1"
-			(at 64.77 52.07 90)
+			(at 59.69 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 64.77 54.61 90)
+		(property "Value" "1"
+			(at 59.69 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -665,7 +685,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 60.198 90)
+			(at 59.69 60.198 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -674,7 +694,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 58.42 0)
+			(at 59.69 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -683,7 +703,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 64.77 58.42 0)
+			(at 59.69 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
