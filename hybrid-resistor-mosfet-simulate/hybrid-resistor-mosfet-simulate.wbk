@@ -1,10 +1,10 @@
 {
-  "last_sch_text_sim_command": ".tran 0.1 1 0",
+  "last_sch_text_sim_command": ".tran 10u 10m 0",
   "tabs": [
     {
       "analysis": "TRAN",
       "commands": [
-        ".tran 0.1 1 0",
+        ".tran 10u 10m 0",
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",
@@ -24,6 +24,16 @@
           "color": "rgb(228, 26, 28)",
           "signal": "I(R1)",
           "trace_type": 258
+        },
+        {
+          "color": "rgb(55, 126, 184)",
+          "signal": "I(R2)",
+          "trace_type": 258
+        },
+        {
+          "color": "rgb(77, 175, 74)",
+          "signal": "V(VBUS)",
+          "trace_type": 257
         }
       ]
     }
