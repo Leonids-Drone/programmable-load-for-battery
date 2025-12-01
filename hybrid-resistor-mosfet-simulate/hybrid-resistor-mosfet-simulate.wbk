@@ -1,10 +1,10 @@
 {
-  "last_sch_text_sim_command": ".tran 10u 10m 0",
+  "last_sch_text_sim_command": ".tran 10n 10m 0",
   "tabs": [
     {
       "analysis": "TRAN",
       "commands": [
-        ".tran 10u 10m 0",
+        ".tran 10n 10m 0",
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",
