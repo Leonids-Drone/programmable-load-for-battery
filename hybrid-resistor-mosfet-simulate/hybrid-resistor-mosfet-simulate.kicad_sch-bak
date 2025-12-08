@@ -2152,6 +2152,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" "R"
+			(at -3.81 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at -3.81 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "175050f2-42ac-468e-a38a-1f33d149fa88")
 		)
@@ -2171,7 +2189,7 @@
 		(lib_id "Device:C")
 		(at 101.6 120.65 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -2186,7 +2204,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1n"
+		(property "Value" "100n"
 			(at 105.41 121.9199 0)
 			(effects
 				(font
@@ -2215,6 +2233,24 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 101.6 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3260,7 +3296,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "500"
 			(at 110.49 129.54 90)
 			(effects
 				(font
@@ -3288,6 +3324,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 110.49 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at -22.86 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at -22.86 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
