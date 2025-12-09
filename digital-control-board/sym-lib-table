@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "programmable-load-library")(type "KiCad")(uri "/Users/kelvin-zhao/Development/git/programmable-load-for-battery/programmable-load-library.kicad_sym")(options "")(descr ""))
+)
