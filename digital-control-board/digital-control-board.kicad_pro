@@ -614,6 +614,10 @@
     [
       "8554ec12-f084-4452-82fa-ded977d90d56",
       "Root"
+    ],
+    [
+      "4d209133-12a2-4965-bac8-ef58aa4074da",
+      "analog_interface"
     ]
   ],
   "text_variables": {}

@@ -11,3 +11,4 @@ hybrid-resistor-mosfet-simulate/hybrid-resistor-mosfet-simulate.kicad_sch-bak
 hybrid-resistor-mosfet-simulate/hybrid-resistor-mosfet-simulate.kicad_sch
 *.lck
 /load-control-board-v1
+/digital-control-board
