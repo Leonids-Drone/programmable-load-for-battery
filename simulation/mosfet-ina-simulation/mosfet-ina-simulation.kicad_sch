@@ -1747,7 +1747,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text ".tran 10u 20m 0"
+	(text "*.tran 10u 20m 0"
 		(exclude_from_sim no)
 		(at 55.626 100.838 0)
 		(effects
@@ -1756,6 +1756,26 @@
 			)
 		)
 		(uuid "15e2f8c8-d102-4506-aad6-ad90223e47ad")
+	)
+	(text "*.AC DEC ND FSTART FSTOP"
+		(exclude_from_sim no)
+		(at 117.602 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2c41a248-4151-4ccc-a898-aec8366a173f")
+	)
+	(text ".ac DEC 1000 10 10k"
+		(exclude_from_sim no)
+		(at 115.824 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4e07e0c7-e094-4ac7-91d6-c06a4438b151")
 	)
 	(text "*.TRAN TSTEP TSTOP <TSTART <TMAX>> <UIC>"
 		(exclude_from_sim no)
