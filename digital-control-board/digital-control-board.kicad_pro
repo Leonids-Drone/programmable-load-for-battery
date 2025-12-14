@@ -619,7 +619,18 @@
     [
       "4d209133-12a2-4965-bac8-ef58aa4074da",
       "analog_interface"
+    ],
+    [
+      "e3b2a335-4832-4e5e-822b-7640cb2a9eb6",
+      "mosfet_gate_interface"
+    ],
+    [
+      "4f36ce91-267d-4e27-bafd-6bde1272c205",
+      "connector"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "C_adc_filter": "4n",
+    "R_adc_filter": "10k"
+  }
 }
