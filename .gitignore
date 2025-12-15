@@ -12,5 +12,9 @@ hybrid-resistor-mosfet-simulate/hybrid-resistor-mosfet-simulate.kicad_sch
 *.lck
 /load-control-board-v1
 /digital-control-board
+<<<<<<< Updated upstream
+=======
+/simulation/opamp_comp_learn
+>>>>>>> Stashed changes
 simulation/mosfet-ina-simulation/\#auto_saved_files\#
 simulation/mosfet-ina-simulation/_autosave-mosfet-ina-simulation.kicad_sch
