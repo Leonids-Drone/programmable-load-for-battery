@@ -2116,7 +2116,17 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "b2f2224b-7517-47a5-baae-82f7d7c72437")
+		(uuid "8bb69ad9-bbcd-4e14-a16b-cfe6ae691f89")
+	)
+	(label "V_Rs0n"
+		(at 168.91 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98cbcd4e-1f99-47e1-90bb-acfd887fa9b0")
 	)
 	(label "V_Rs0n"
 		(at 208.28 54.61 0)
@@ -2128,16 +2138,6 @@
 		)
 		(uuid "cf5999fa-e549-43c8-b37a-1eae870a6e5f")
 	)
-	(label "V_Rs0n"
-		(at 168.91 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d4f3cf90-03ad-469d-8e25-989b15f15f6e")
-	)
 	(label "V_Rs0p"
 		(at 33.02 58.42 0)
 		(effects
@@ -2147,28 +2147,6 @@
 			(justify left bottom)
 		)
 		(uuid "e047acdc-4dda-48c1-a806-6c879998be45")
-	)
-	(global_label "I_sink_mon_0"
-		(shape input)
-		(at 248.92 69.85 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2aea0e9b-d45e-4f81-a5ea-36aca84cfb59")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.4236 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "I_sink"
 		(shape input)
@@ -2213,6 +2191,17 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "I_sink_mon"
+		(shape input)
+		(at 248.92 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3c3faa79-fffc-458a-a6b0-622cd40d5773")
 	)
 	(symbol
 		(lib_id "Device:R")
