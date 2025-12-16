@@ -1,0 +1,78 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "750902ba-2108-452d-801d-b702ee0d8882")
+	(paper "A4")
+	(lib_symbols)
+	(label "GPIO38"
+		(at 33.02 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "12e44556-9e3d-4902-9fee-ecb0b28e9d42")
+	)
+	(label "GPIO37"
+		(at 33.02 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "775b11c9-4fec-4168-b068-fb22ef5bfdef")
+	)
+	(label "GPIO33"
+		(at 33.02 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9259f20d-5633-422a-8233-49a445c1c523")
+	)
+	(label "GPIO34"
+		(at 33.02 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a7f3984d-b5d9-47c7-9aac-66880eb1e622")
+	)
+	(label "GPIO39"
+		(at 33.02 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d8a27b89-c60d-4d6d-8611-4fc71833a35e")
+	)
+	(label "GPIO35"
+		(at 33.02 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "de3fc846-fd65-4c42-a621-0d45489d880c")
+	)
+	(label "GPIO36"
+		(at 33.02 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e56f750f-8281-416f-a7c6-74c85a6a0e96")
+	)
+)
