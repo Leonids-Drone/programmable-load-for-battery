@@ -447,7 +447,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "programmable-load-library"
+    ],
     "pinned_symbol_libs": [
       "programmable-load-library"
     ]
@@ -621,15 +623,15 @@
       "ch0"
     ],
     [
-      "aaff3a1d-80bf-44b1-b949-1e9e4ef3f6f1",
-      "ch1"
-    ],
-    [
-      "a8468ce5-d801-4874-97d3-bac9a28a5e99",
+      "f4cc2a4e-3a09-476d-93a3-1914a1e445bc",
       "ch2"
     ],
     [
-      "d5076d8d-30fc-4a49-80ce-64f9b0e3be17",
+      "146ff61e-88a7-408b-8131-d3e0de58ef75",
+      "ch1"
+    ],
+    [
+      "61615eac-6a8f-412b-8e60-ad487c91626a",
       "ch3"
     ]
   ],

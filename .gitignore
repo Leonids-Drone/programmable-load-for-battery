@@ -18,3 +18,4 @@ simulation/mosfet-ina-simulation/_autosave-mosfet-ina-simulation.kicad_sch
 load-control-board-v1/fp-lib-table
 load-control-board-v1/fp-info-cache
 load-control-board-v1/sym-lib-table
+/simulation/74hc123_learn
