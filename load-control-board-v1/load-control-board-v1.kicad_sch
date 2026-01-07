@@ -9801,7 +9801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "+5V"
 			(at 254.254 67.056 0)
 			(effects
 				(font
@@ -10007,7 +10007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "+5V"
 			(at 315.214 93.726 0)
 			(effects
 				(font
@@ -10139,7 +10139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "+5V"
 			(at 62.484 46.736 0)
 			(effects
 				(font
@@ -10470,7 +10470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "+5V"
 			(at 169.164 53.086 0)
 			(effects
 				(font
