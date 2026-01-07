@@ -633,6 +633,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -665,6 +673,10 @@
     [
       "705a8778-6422-475b-b5ab-00ba27249c43",
       "ch3"
+    ],
+    [
+      "b310be1e-a146-4e5a-b784-88ba2d2ab38e",
+      "power_connector"
     ]
   ],
   "text_variables": {}
