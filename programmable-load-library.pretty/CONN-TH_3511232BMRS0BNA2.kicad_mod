@@ -901,7 +901,7 @@
 	(embedded_fonts no)
 	(model "../programmable-load-library.3dshapes/CONN-TH_3511232BMRS0BNA2.wrl"
 		(offset
-			(xyz 0 -6.9 4.5)
+			(xyz 0 -6.9 2.5)
 		)
 		(scale
 			(xyz 1 1 1)
