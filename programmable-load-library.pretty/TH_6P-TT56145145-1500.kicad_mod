@@ -194,13 +194,13 @@
 	(embedded_fonts no)
 	(model "../programmable-load-library.3dshapes/TH_6P-TT56145145-1500.wrl"
 		(offset
-			(xyz -0 0 4)
+			(xyz -0 0 9.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )
