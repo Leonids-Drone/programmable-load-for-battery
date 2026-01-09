@@ -3474,6 +3474,12 @@
 		(uuid "34c773aa-b1bf-4926-8ee7-290e49dd173b")
 	)
 	(junction
+		(at 191.77 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "393d1c56-c139-4c16-b9b1-d8c818dcb340")
+	)
+	(junction
 		(at 356.87 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3508,6 +3514,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9d90754-060c-4746-bdcf-6b6ecd9d7b8a")
+	)
+	(junction
+		(at 260.35 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1dd3662-7524-4a1f-8960-04d918815775")
 	)
 	(junction
 		(at 62.23 52.07)
@@ -3580,10 +3592,6 @@
 	(no_connect
 		(at 226.06 166.37)
 		(uuid "2bcfbff6-ef9a-4d9e-940a-2e45d0c737d0")
-	)
-	(no_connect
-		(at 356.87 165.1)
-		(uuid "38e1986f-0346-4cf4-948a-f6717b3a9550")
 	)
 	(no_connect
 		(at 205.74 163.83)
@@ -3829,6 +3837,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 93.98) (xy 260.35 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e8d4038-1da2-4153-bbdc-6bb1dbf6b71d")
+	)
+	(wire
+		(pts
 			(xy 337.82 175.26) (xy 339.09 175.26)
 		)
 		(stroke
@@ -4029,16 +4047,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 95.25) (xy 242.57 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6309c897-ffa9-4a21-9e75-a314c5086c8c")
-	)
-	(wire
-		(pts
 			(xy 355.6 77.47) (xy 355.6 63.5)
 		)
 		(stroke
@@ -4206,6 +4214,16 @@
 			(type default)
 		)
 		(uuid "9b42cf3c-9fdb-4218-ba1c-98ba440bba9f")
+	)
+	(wire
+		(pts
+			(xy 242.57 93.98) (xy 242.57 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b724513-2807-4c66-9d4f-564d0727eedf")
 	)
 	(wire
 		(pts
@@ -4389,6 +4407,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 93.98) (xy 242.57 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9376b7e-90b5-474d-ac55-ddb5f1e8519b")
+	)
+	(wire
+		(pts
 			(xy 133.35 66.04) (xy 133.35 68.58)
 		)
 		(stroke
@@ -4399,13 +4427,23 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 83.82) (xy 212.09 83.82)
+			(xy 186.69 83.82) (xy 191.77 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ddae827c-53dd-4f2e-b0a8-fd2cd405160d")
+	)
+	(wire
+		(pts
+			(xy 191.77 83.82) (xy 212.09 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0c2f0db-3087-4a4f-986a-2c71d641df48")
 	)
 	(wire
 		(pts
@@ -4517,6 +4555,16 @@
 		)
 		(uuid "4d9ef390-6535-4d13-8792-d8be08b4c0fe")
 	)
+	(label "I_SINK_MON_CH1"
+		(at 91.44 262.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "640bb9d9-6c0a-456e-8074-0f0ee1aa57d3")
+	)
 	(label "READY"
 		(at 337.82 175.26 180)
 		(effects
@@ -4557,6 +4605,16 @@
 		)
 		(uuid "d2916bbc-3568-4160-805b-3d0b0c3bc31d")
 	)
+	(label "I_SINK_MON_CH3"
+		(at 140.97 262.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dca33792-7571-4f93-bb3b-b06625067f40")
+	)
 	(label "I_SINK_MON_CH1"
 		(at 356.87 180.34 0)
 		(effects
@@ -4577,24 +4635,56 @@
 		)
 		(uuid "ecbab418-9561-4451-b048-602788f358bb")
 	)
-	(global_label "ENABLE"
+	(label "I_SINK_MON_CH2"
+		(at 116.84 262.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8cec8c6-bc90-4873-9e9c-26b268feac53")
+	)
+	(global_label "I_CONTROL"
 		(shape input)
-		(at 339.09 162.56 180)
+		(at 356.87 165.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "14f83716-55f1-428e-8664-7a3c9fd54210")
+		(uuid "008b341c-96d8-41c0-8b65-74c614d0bbcd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 329.0896 162.56 0)
+			(at 369.9548 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ENABLE"
+		(shape input)
+		(at 356.87 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a3dbc1e-205e-43f3-80c4-1edf13134165")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 366.8704 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4645,7 +4735,7 @@
 	)
 	(global_label "OV_ALERT"
 		(shape input)
-		(at 242.57 95.25 0)
+		(at 264.16 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4655,7 +4745,7 @@
 		)
 		(uuid "712e8267-ddb2-45c0-be7a-60cd43e10364")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.4452 95.25 0)
+			(at 276.0352 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4749,28 +4839,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "I_CONTROL"
-		(shape input)
-		(at 356.87 162.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fa6537f8-fa7b-4a4c-923e-3fb42d806076")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 369.9548 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -5154,25 +5222,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 144.78 81.28 0)
+		(lib_id "Device:R")
+		(at 91.44 266.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0ccf604d-d274-4a53-8193-b9ed64d558dc")
-		(property "Reference" "#PWR017"
-			(at 144.78 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "5V"
-			(at 145.796 80.01 0)
+		(fields_autoplaced yes)
+		(uuid "0d40e759-ea21-4b3f-b1b2-f531ff3accce")
+		(property "Reference" "R76"
+			(at 93.98 265.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5180,8 +5240,17 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 144.78 81.28 0)
+		(property "Value" "10k"
+			(at 93.98 267.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 89.662 266.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5189,8 +5258,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 144.78 81.28 0)
+		(property "Datasheet" "~"
+			(at 91.44 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5198,22 +5267,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 144.78 81.28 0)
+		(property "Description" "Resistor"
+			(at 91.44 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "2"
+			(uuid "4de70db6-55ca-4b66-a977-e539500ba7ab")
 		)
 		(pin "1"
-			(uuid "e2b38e47-dc27-47dc-8401-56ac9cd322d5")
+			(uuid "a8ea855f-b1a3-4b50-b4b9-4aae7d4c8889")
 		)
 		(instances
 			(project "load-control-board-v1"
 				(path "/932aba27-7b64-4a5e-ae3c-58efe17592af"
-					(reference "#PWR017")
+					(reference "R76")
 					(unit 1)
 				)
 			)
@@ -5356,6 +5428,206 @@
 			(project ""
 				(path "/932aba27-7b64-4a5e-ae3c-58efe17592af"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 274.32 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "173fe472-8750-416e-96d7-b702703dc72d")
+		(property "Reference" "TP30"
+			(at 276.86 166.8779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "REF"
+			(at 276.86 169.4179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "programmable-load-library:SMD_RH-5015"
+			(at 279.4 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 279.4 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 274.32 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3dc99be4-c7c7-49c8-aab0-8e79c98ccc32")
+		)
+		(instances
+			(project "load-control-board-v1"
+				(path "/932aba27-7b64-4a5e-ae3c-58efe17592af"
+					(reference "TP30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 191.77 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bfc2412-3c0f-4452-9c3f-040caead6d9a")
+		(property "Reference" "TP32"
+			(at 194.31 79.2479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VBUS_COMP_OUT"
+			(at 194.31 81.7879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "programmable-load-library:SMD_RH-5015"
+			(at 196.85 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 191.77 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb19996f-7006-4935-808e-da64d78110ac")
+		)
+		(instances
+			(project "load-control-board-v1"
+				(path "/932aba27-7b64-4a5e-ae3c-58efe17592af"
+					(reference "TP32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2211e35d-2f79-44c8-aa81-f02e55a7e7c6")
+		(property "Reference" "#PWR0124"
+			(at 127 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6753b27-f8b0-41d7-97b5-553416740e84")
+		)
+		(instances
+			(project "load-control-board-v1"
+				(path "/932aba27-7b64-4a5e-ae3c-58efe17592af"
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -6494,6 +6766,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 355.6 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4dd270dd-dce6-4b5a-afe8-a02252598713")
+		(property "Reference" "TP31"
+			(at 358.14 58.9279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "V_BUS_MON"
+			(at 358.14 61.4679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "programmable-load-library:SMD_RH-5015"
+			(at 360.68 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 360.68 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 355.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35314590-aec8-4f07-92fa-973528acf66f")
+		)
+		(instances
+			(project "load-control-board-v1"
+				(path "/932aba27-7b64-4a5e-ae3c-58efe17592af"
+					(reference "TP31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 127 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e6e673d-4e55-43c2-a5cd-93483e2719e3")
+		(property "Reference" "TP21"
+			(at 129.54 179.5779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 182.1179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "programmable-load-library:SMD_RH-5015"
+			(at 132.08 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 127 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0859c04e-3a66-4401-9d2d-ef1f07b84dc6")
+		)
+		(instances
+			(project "load-control-board-v1"
+				(path "/932aba27-7b64-4a5e-ae3c-58efe17592af"
+					(reference "TP21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+9V")
 		(at 156.21 153.67 0)
 		(unit 1)
@@ -6554,6 +6960,72 @@
 			(project ""
 				(path "/932aba27-7b64-4a5e-ae3c-58efe17592af"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 204.47 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56147b91-7125-465c-9ac1-3d34dbbcd336")
+		(property "Reference" "#PWR027"
+			(at 208.28 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 200.406 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 204.47 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc3e5831-1c86-4082-81e3-2ba3dfe15c63")
+		)
+		(instances
+			(project "load-control-board-v1"
+				(path "/932aba27-7b64-4a5e-ae3c-58efe17592af"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -7356,8 +7828,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "TL081HIDBVR"
-			(at 191.77 79.9398 0)
+		(property "Value" "ALERT_COMP_OUT"
+			(at 194.31 79.9398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7486,6 +7958,209 @@
 			(project "load-control-board-v1"
 				(path "/932aba27-7b64-4a5e-ae3c-58efe17592af"
 					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 39.37 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76cf7938-ff2f-4dc1-838e-ae9b051b56f3")
+		(property "Reference" "TP20"
+			(at 41.91 180.8479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 41.91 183.3879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "programmable-load-library:SMD_RH-5015"
+			(at 44.45 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 39.37 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b2a6015-cfbe-4735-a86d-4aa5da1be6ee")
+		)
+		(instances
+			(project "load-control-board-v1"
+				(path "/932aba27-7b64-4a5e-ae3c-58efe17592af"
+					(reference "TP20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 144.78 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7748b7d6-5a67-46ec-99f3-2b7de11448b0")
+		(property "Reference" "#PWR017"
+			(at 144.78 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 145.034 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 144.78 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6463718-b9e8-44d7-ab74-fe9e5ce89760")
+		)
+		(instances
+			(project "load-control-board-v1"
+				(path "/932aba27-7b64-4a5e-ae3c-58efe17592af"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 116.84 266.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7783b8b7-0cdf-475c-91a6-27f297ae783d")
+		(property "Reference" "R77"
+			(at 119.38 265.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 119.38 267.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 115.062 266.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 116.84 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a2c6b4bd-97cb-48ca-8645-b1d2e5ae8091")
+		)
+		(pin "1"
+			(uuid "533cfbd2-9515-452e-9aa1-375194fc40f3")
+		)
+		(instances
+			(project "load-control-board-v1"
+				(path "/932aba27-7b64-4a5e-ae3c-58efe17592af"
+					(reference "R77")
 					(unit 1)
 				)
 			)
@@ -8330,6 +9005,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 140.97 266.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a998976-cb77-4a7a-a686-7827cb5a7807")
+		(property "Reference" "R78"
+			(at 143.51 265.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 143.51 267.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 139.192 266.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 140.97 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "11688aa9-696e-4536-bb15-82d837e70125")
+		)
+		(pin "1"
+			(uuid "91044d2e-5689-428f-aac9-aee3f2e3821c")
+		)
+		(instances
+			(project "load-control-board-v1"
+				(path "/932aba27-7b64-4a5e-ae3c-58efe17592af"
+					(reference "R78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 369.57 154.94 0)
 		(unit 1)
@@ -8612,6 +9357,72 @@
 			(project "load-control-board-v1"
 				(path "/932aba27-7b64-4a5e-ae3c-58efe17592af"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 116.84 270.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ec63721-3052-4102-b963-2f90bb2a1574")
+		(property "Reference" "#PWR0134"
+			(at 116.84 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b8fb88e-542d-45b6-98fd-99ffac8b2bba")
+		)
+		(instances
+			(project "load-control-board-v1"
+				(path "/932aba27-7b64-4a5e-ae3c-58efe17592af"
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -9228,6 +10039,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 39.37 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb2ae31c-a33e-4b3f-9f20-00f584e820f4")
+		(property "Reference" "#PWR0123"
+			(at 39.37 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.37 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6fb86dd-fc68-48a0-880d-79d686445e6f")
+		)
+		(instances
+			(project "load-control-board-v1"
+				(path "/932aba27-7b64-4a5e-ae3c-58efe17592af"
+					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 233.68 165.1 0)
 		(unit 1)
@@ -9424,6 +10301,72 @@
 			(project "load-control-board-v1"
 				(path "/932aba27-7b64-4a5e-ae3c-58efe17592af"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 140.97 270.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf55ab1f-b15e-443f-a41d-6995187cd06b")
+		(property "Reference" "#PWR0135"
+			(at 140.97 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 140.97 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d45fabb-4676-488a-b462-db3dea4561dc")
+		)
+		(instances
+			(project "load-control-board-v1"
+				(path "/932aba27-7b64-4a5e-ae3c-58efe17592af"
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -10968,16 +11911,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 204.47 86.36 90)
+		(lib_id "power:GND")
+		(at 91.44 270.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f68a1480-5589-4909-95fc-83670a864d1e")
-		(property "Reference" "#PWR027"
-			(at 208.28 86.36 0)
+		(fields_autoplaced yes)
+		(uuid "f74a5da8-cd1f-4fe2-a53e-d46653a693a0")
+		(property "Reference" "#PWR0133"
+			(at 91.44 276.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10985,17 +11929,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5V"
-			(at 200.406 86.106 0)
+		(property "Value" "GND"
+			(at 91.44 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 86.36 0)
+			(at 91.44 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11004,7 +11947,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 86.36 0)
+			(at 91.44 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11012,8 +11955,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 204.47 86.36 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 91.44 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11022,12 +11965,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e97c490b-3f6b-43df-8f54-ee819ce0c8be")
+			(uuid "5ae639eb-a36c-414e-b347-cbad02801f13")
 		)
 		(instances
-			(project "load-control-board-v1"
+			(project ""
 				(path "/932aba27-7b64-4a5e-ae3c-58efe17592af"
-					(reference "#PWR027")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -11095,6 +12038,73 @@
 			(project "load-control-board-v1"
 				(path "/932aba27-7b64-4a5e-ae3c-58efe17592af"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 260.35 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffe77ad6-06ab-44dd-8916-09ff81a2a068")
+		(property "Reference" "TP33"
+			(at 262.89 89.4079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OV_ALERT"
+			(at 262.89 91.9479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "programmable-load-library:SMD_RH-5015"
+			(at 265.43 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 260.35 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31f6eee4-4d93-46d6-b2c3-9b650f6c7f37")
+		)
+		(instances
+			(project "load-control-board-v1"
+				(path "/932aba27-7b64-4a5e-ae3c-58efe17592af"
+					(reference "TP33")
 					(unit 1)
 				)
 			)

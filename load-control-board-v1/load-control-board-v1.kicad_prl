@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 19,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [
@@ -55,7 +55,7 @@
       "V_BUS_MON",
       "OC_ALERT",
       "unconnected-(CN1-A15-Pad15)",
-      "unconnected-(CN1-B6-Pad22)",
+      "unconnected-(CN1-A5-Pad5)",
       "unconnected-(CN1-B15-Pad31)",
       "unconnected-(CN1-A8-Pad8)",
       "unconnected-(CN1-B8-Pad24)",
@@ -70,7 +70,6 @@
       "unconnected-(CN1-A6-Pad6)",
       "unconnected-(CN1-A9-Pad9)",
       "unconnected-(CN1-B7-Pad23)",
-      "5V",
       "/I_SINK_MON_CH1",
       "/I_SINK_MON_CH2",
       "/I_SINK_MON_CH3",

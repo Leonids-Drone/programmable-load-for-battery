@@ -5635,6 +5635,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 102.87 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8045db5a-0637-4633-bd17-1e36c4287c53")
+		(property "Reference" "TP22"
+			(at 105.41 79.2479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.41 81.7879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "programmable-load-library:SMD_RH-5015"
+			(at 107.95 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 102.87 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2a1aa29-82a5-4f47-aeb3-5a5c1653b776")
+		)
+		(instances
+			(project "load-control-board-v1"
+				(path "/932aba27-7b64-4a5e-ae3c-58efe17592af/13334eb8-ba95-4a2f-940f-a682d806f744"
+					(reference "TP23")
+					(unit 1)
+				)
+				(path "/932aba27-7b64-4a5e-ae3c-58efe17592af/6bc47c43-2a61-4add-a64d-33ab3822194a"
+					(reference "TP24")
+					(unit 1)
+				)
+				(path "/932aba27-7b64-4a5e-ae3c-58efe17592af/705a8778-6422-475b-b5ab-00ba27249c43"
+					(reference "TP25")
+					(unit 1)
+				)
+				(path "/932aba27-7b64-4a5e-ae3c-58efe17592af/d175793d-7a2d-40c2-8abf-93894290eb6d"
+					(reference "TP22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 27.94 50.8 0)
 		(unit 1)
@@ -5707,6 +5786,84 @@
 				)
 				(path "/932aba27-7b64-4a5e-ae3c-58efe17592af/d175793d-7a2d-40c2-8abf-93894290eb6d"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88c41d1a-80cb-4e2b-89c3-c76a7b83f983")
+		(property "Reference" "#PWR0129"
+			(at 114.3 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68f67cce-eaad-401f-92d1-219bcdfda84c")
+		)
+		(instances
+			(project "load-control-board-v1"
+				(path "/932aba27-7b64-4a5e-ae3c-58efe17592af/13334eb8-ba95-4a2f-940f-a682d806f744"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+				(path "/932aba27-7b64-4a5e-ae3c-58efe17592af/6bc47c43-2a61-4add-a64d-33ab3822194a"
+					(reference "#PWR0131")
+					(unit 1)
+				)
+				(path "/932aba27-7b64-4a5e-ae3c-58efe17592af/705a8778-6422-475b-b5ab-00ba27249c43"
+					(reference "#PWR0132")
+					(unit 1)
+				)
+				(path "/932aba27-7b64-4a5e-ae3c-58efe17592af/d175793d-7a2d-40c2-8abf-93894290eb6d"
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -7109,6 +7266,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 114.3 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d354de05-1438-45bd-a57b-e68de062fead")
+		(property "Reference" "TP26"
+			(at 116.84 79.2479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 81.7879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "programmable-load-library:SMD_RH-5015"
+			(at 119.38 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 114.3 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "086ebad7-3128-431d-b546-6bfd89b493c4")
+		)
+		(instances
+			(project "load-control-board-v1"
+				(path "/932aba27-7b64-4a5e-ae3c-58efe17592af/13334eb8-ba95-4a2f-940f-a682d806f744"
+					(reference "TP27")
+					(unit 1)
+				)
+				(path "/932aba27-7b64-4a5e-ae3c-58efe17592af/6bc47c43-2a61-4add-a64d-33ab3822194a"
+					(reference "TP28")
+					(unit 1)
+				)
+				(path "/932aba27-7b64-4a5e-ae3c-58efe17592af/705a8778-6422-475b-b5ab-00ba27249c43"
+					(reference "TP29")
+					(unit 1)
+				)
+				(path "/932aba27-7b64-4a5e-ae3c-58efe17592af/d175793d-7a2d-40c2-8abf-93894290eb6d"
+					(reference "TP26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 205.74 39.37 0)
 		(unit 1)
@@ -7925,6 +8161,84 @@
 				)
 				(path "/932aba27-7b64-4a5e-ae3c-58efe17592af/d175793d-7a2d-40c2-8abf-93894290eb6d"
 					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 102.87 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff52aeb6-a1ad-4fff-8b73-f8e3a4cdf1bb")
+		(property "Reference" "#PWR0125"
+			(at 102.87 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a1046c8-ace6-4cec-a761-1e8df2fd1ec4")
+		)
+		(instances
+			(project "load-control-board-v1"
+				(path "/932aba27-7b64-4a5e-ae3c-58efe17592af/13334eb8-ba95-4a2f-940f-a682d806f744"
+					(reference "#PWR0126")
+					(unit 1)
+				)
+				(path "/932aba27-7b64-4a5e-ae3c-58efe17592af/6bc47c43-2a61-4add-a64d-33ab3822194a"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+				(path "/932aba27-7b64-4a5e-ae3c-58efe17592af/705a8778-6422-475b-b5ab-00ba27249c43"
+					(reference "#PWR0128")
+					(unit 1)
+				)
+				(path "/932aba27-7b64-4a5e-ae3c-58efe17592af/d175793d-7a2d-40c2-8abf-93894290eb6d"
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
