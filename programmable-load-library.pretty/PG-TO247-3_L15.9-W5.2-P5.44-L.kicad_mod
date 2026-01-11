@@ -1,28 +1,183 @@
-(module easyeda2kicad:PG-TO247-3_L15.9-W5.2-P5.44-L (layer F.Cu) (tedit 5DC5F6A4)
+(footprint "PG-TO247-3_L15.9-W5.2-P5.44-L"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "5d8b50ef-86a7-42f3-9cfc-988419604416")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PG-TO247-3_L15.9-W5.2-P5.44-L"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "a8b45e13-407b-4754-ba1c-22b0b7be9767")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "08442c83-d83d-4de7-9571-9fdcbe1910d3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5a84374-9f08-4e29-afe1-1b2d1d3e4f25")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
-	(fp_text reference REF** (at 0 -4.0) (layer F.SilkS)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -7.95 -2.7)
+		(end 7.95 -2.7)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f2e0d5e0-40ac-4698-9da4-a8f5cf48aa46")
 	)
-	(fp_text value PG-TO247-3_L15.9-W5.2-P5.44-L (at 0 4.0) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -7.95 -1.81)
+		(end 7.95 -1.81)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0109b0f8-829a-4644-8635-c1312d562ef2")
 	)
-	(fp_text user %R (at 0 0) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -7.95 2.3)
+		(end -7.95 -2.7)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "87515f1a-5b8c-411d-8bb1-5ccd6e1f6832")
 	)
-	(fp_line (start -7.95 -1.81) (end 7.95 -1.81) (layer F.SilkS) (width 0.25))
-	(fp_line (start -7.95 -2.70) (end 7.95 -2.70) (layer F.SilkS) (width 0.25))
-	(fp_line (start 7.95 -2.70) (end 7.95 2.30) (layer F.SilkS) (width 0.25))
-	(fp_line (start 7.95 2.30) (end -7.95 2.30) (layer F.SilkS) (width 0.25))
-	(fp_line (start -7.95 2.30) (end -7.95 -2.70) (layer F.SilkS) (width 0.25))
-	(pad 1 thru_hole rect (at -5.44 0.00 90.00) (size 1.60 2.20) (layers *.Cu *.Mask)(drill oval 0.9999979999999999 1.5999967999999998))
-	(pad 2 thru_hole oval (at 0.00 0.00 90.00) (size 1.60 2.20) (layers *.Cu *.Mask)(drill oval 0.9999979999999999 1.5999967999999998))
-	(pad 3 thru_hole oval (at 5.44 0.00 90.00) (size 1.60 2.20) (layers *.Cu *.Mask)(drill oval 0.9999979999999999 1.5999967999999998))
-	(fp_circle (center -7.95 2.30) (end -7.92 2.30) (layer F.Fab) (width 0.06))
-	(fp_circle (center -5.55 1.70) (end -5.35 1.70) (layer Cmts.User) (width 0.40))
-	(fp_circle (center -6.05 2.95) (end -5.85 2.95) (layer F.SilkS) (width 0.40))
-	(model "/programmable-load-library.3dshapes/PG-TO247-3_L15.9-W5.2-H25.3-P5.44-L.wrl"
-		(offset (xyz 0.000 0.200 3.500))
-		(scale (xyz 1 1 1))
-		(rotate (xyz 0 0 0))
+	(fp_line
+		(start 7.95 -2.7)
+		(end 7.95 2.3)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d115ea4b-5b5a-4c53-a7c4-13d7714597b2")
+	)
+	(fp_line
+		(start 7.95 2.3)
+		(end -7.95 2.3)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5f5abecd-4f26-42a1-9135-9b37f297ed66")
+	)
+	(fp_circle
+		(center -6.05 2.95)
+		(end -5.85 2.95)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d24754ed-91a8-4d5c-8d2a-8f60a5aa3b63")
+	)
+	(fp_circle
+		(center -5.55 1.7)
+		(end -5.35 1.7)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "0451ca35-7c76-45cf-86f7-b72086f12ca1")
+	)
+	(fp_circle
+		(center -7.95 2.3)
+		(end -7.92 2.3)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0be8e6a2-e8d4-469e-8e7f-0282baab6fd5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "e91a0719-58ba-4211-ac61-0a5c660e94de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -5.44 0 90)
+		(size 1.6 2.2)
+		(drill oval 0.999998 1.599997)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3d8a69d1-650b-4fa3-848b-a20f89d2a830")
+	)
+	(pad "2" thru_hole oval
+		(at 0 0 90)
+		(size 1.6 2.2)
+		(drill oval 0.999998 1.599997)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "59504e97-fc22-4edd-a38b-a505288a6ede")
+	)
+	(pad "3" thru_hole oval
+		(at 5.44 0 90)
+		(size 1.6 2.2)
+		(drill oval 0.999998 1.599997)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fc9ae4ab-186b-44f2-8938-903e885ef3f6")
+	)
+	(embedded_fonts no)
+	(model "../programmable-load-library.3dshapes/PG-TO247-3_L15.9-W5.2-H25.3-P5.44-L.wrl"
+		(offset
+			(xyz 0 0.2 3.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )
