@@ -20,3 +20,9 @@ load-control-board-v1/fp-info-cache
 load-control-board-v1/sym-lib-table
 /simulation/74hc123_learn
 load-control-board-v1/\#auto_saved_files\#
+load-control-board-4ch/fabrication-toolkit-options.json
+load-control-board-4ch/fp-info-cache
+load-control-board-4ch/fp-lib-table
+/load-control-board-4ch/production
+load-control-board-v1/fabrication-toolkit-options.json
+/load-control-board-v1/production
