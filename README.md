@@ -11,6 +11,6 @@ For prototype board
 check programmable load - control board
 
 ## Cooling method
-Water cooling or Al heat sink
+Water cooling or heat sink
 
 <img width="3026" height="1942" alt="load-control-board-v1" src="https://github.com/user-attachments/assets/7250011f-64b9-4f79-bf99-231bacea012a" />
